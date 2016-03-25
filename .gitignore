@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------
+# Modelo para projetos WordPress - https://lampso.com.br
+#
+# ---------------------------------------------------------------------
+
+# Ignorar arquivos temporários ou ocultos
+.*
+~*
+
+# Ignorar Logs e Arquivos do Banco de Dados
+*.log
+*.sql
+
+# Ignorar arquivos compactados
+*.zip
+*.rar
+*.7z
+*.iso
+*.jar
+*.tar
+*.gz
+
+# Ignorar Tudo, exceto o Conteúdo (wp-content/)
+/*
+!wp-content/
+
+# Ignorar todo conteúdo, exceto Temas e Plugins
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# Ignorar todos os temas, exceto:
+# tema:
+wp-content/themes/*
+
+# Ignorar todos os plugins, exceto:
+# plugin:
+wp-content/plugins/*
